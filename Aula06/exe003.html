@@ -8,7 +8,7 @@
     <style>
       body {
         background-color: rgb(149, 149, 192);
-        color: white; 
+        color: white; /* comentario css */
         font: normal 25pt Arial;
       }
 
@@ -19,11 +19,15 @@
   </head>
   <body>
     <h1>Olá mundo</h1>
+    <!-- comentario html -->
     <p>Já me livrei da maldição</p>
   </body>
   <script>
-    alert("Minha primeira mensagem!");
-    confirm("está gostando de Js?");
-    prompt("Qual é seu nome?");
+    var n1 = Number(prompt("Digite um número"));
+    var n2 = Number(prompt("Digite outro número"));
+    var s = n1 + n2;
+    alert(` a soma entre ${n1} e ${n2} valores é: ${s} `);
+    //(number+ number) + para adição 
+    //(string + string) + para concatenação
   </script>
 </html>
